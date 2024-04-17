@@ -1,0 +1,133 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+.bottom-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 3vw;
+    pointer-events: auto;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    /* background: rgb(248, 204, 108); */
+}
+.bottom-box-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fa-whatsapp {
+    color: rgba(0,0,0,.5);
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+.fa-whatsapp:hover{
+  color: #3ee25b;
+}
+.fa-google {
+    color: rgba(0,0,0,.5);
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  .fa-google:hover{
+    background: -webkit-linear-gradient(36deg, #4285F4 6%,#EA4335 60.3%,#FBBC05 57.6%,#34A853 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bottom-box-media-links {
+    margin: 0 12px;
+    font-size: 26px;
+}
+
+.bottom-box-pages {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.bottom-box-pages-links {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: rgba(0,0,0,.5);
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1.6rem;
+}
+.bottom-box-mine {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.bod {
+  margin: 0;
+}
+.bottom-box-mine-links {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    color: rgba(0,0,0,.5);
+    margin-right: 15px;
+    margin-left: 15px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1rem;
+}
+.fa-copy{
+    width: 14px;
+    height: 14px;
+}
+button {
+    height: 35px;
+    width: 35px;
+    padding: 5px 6px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+button:active{
+  background: #85f4a3;
+}
+.copy_con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
